@@ -98,6 +98,7 @@ header .navbar a:hover{
     min-height: 100vh;
     color: #222435;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--bg-color);
     background-color: url(/images/) no-repeat;
@@ -114,7 +115,7 @@ header .navbar a:hover{
 }
 
 .home-text span {
-    color: var(--primary);
+    color: #7e1061;
 }
 
 .home-text h2 {
@@ -143,8 +144,10 @@ header .navbar a:hover{
 .about {
     width: 100%;
     min-height: 84vh;
-    display: flex;
-    align-items:center;
+    /*display: flex;*/
+    /*align-items:center;*/
+    padding-left: 30rem;
+    padding-right: 30rem;
     justify-content: space-between;
 }
 
@@ -176,13 +179,14 @@ header .navbar a:hover{
 .about-text p {
     font-size: var(--p-font);
     margin: 1rem 0 var(--m-4);
-    text-align: justify;
     font-weight: 300;
 }
 
 .skills {
     width: 100%;
     min-height: 100vh;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
 }
 
 .heading {
@@ -199,9 +203,7 @@ header .navbar a:hover{
 }
 
 .skills-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   
 }
 
 .skills-img {
@@ -225,6 +227,8 @@ header .navbar a:hover{
 
 .skills-text h2 {
     font-weight: 600;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 .skills-text p {
     font-size: var(--p-font);
@@ -234,13 +238,14 @@ header .navbar a:hover{
 .skills-box {
     position: relative;
     background: #2c3e50;
-    margin: 1rem 0;
+    margin: 3rem 0;
     height: 3.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
     border-radius: 10px;
+    width: 45%;
 }
 
 .skills-box i {
@@ -267,19 +272,19 @@ header .navbar a:hover{
 }
 
 .html-bar {
-    width: 94%;
+    width: 80%;
 }
 
 .CSS-bar {
-    width: 88%;
+    width: 75%;
 }
 
 .js-bar {
-    width: 50%;
+    width: 30%;
 }
 
 .ux-bar {
-    width: 90%;
+    width: 95%;
 }
 
 .portfolio-content {
@@ -295,7 +300,7 @@ header .navbar a:hover{
     align-items: center;
     width: 300px;
     height: auto;
-    background: #2c3e50;
+    background: #e4edd8;
     margin: 20px;
     padding: 40px;
     text-align: center;
@@ -338,6 +343,7 @@ header .navbar a:hover{
 
 .contact-info {
     max-width: 500px;
+    margin-top: 2rem;
 }
 
 .info-box {
@@ -345,6 +351,7 @@ header .navbar a:hover{
     align-items: center;
     margin: 1rem 0;
 }
+
 
 .info-box i {
     font-size: 20px;
@@ -378,7 +385,7 @@ form input, form textarea {
     border: none;
     outline: none;
     margin-bottom: 12px;
-    background: #2c3e50;
+    background: #ffffff;
     color: var(--primary);
     border-bottom: 1px solid var(--primary);
 }
@@ -404,7 +411,40 @@ form  textarea {
     background: var(--primary);
 }
 
+.skills-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
 
+.ski {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+
+.skills-one {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.skills-two {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.contact-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
 
 
 
@@ -434,7 +474,7 @@ form  textarea {
         margin: 1rem;
         padding: 1.5rem;
         display: block;
-        background: #fff;
+        background: #a17d7d;
         border-left: 4px solid #222435;
     }
 }
