@@ -17,8 +17,9 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#projecten">projecten</a></li>
             <li><a href="#contact">Contact</a></li>
+            
         </ul>
     </header>
 
@@ -35,7 +36,6 @@
 
     <section class="about" id="about">
         <div class="about-text">
-            <h2>About ME</h2>
             <h1>Over MIJ</h1>
             <p>Mijn naam is Maryam en ik ben 21 jaar oud. Ik heb mijn middelbare schoolopleiding gevolgd aan de Viso Middelbare School, waar ik mij heb gespecialiseerd in grafisch ontwerp. Tijdens mijn tijd op de middelbare school ontwikkelde ik een passie voor visuele communicatie en het creëren van boeiende ontwerpen.</p>
 
@@ -88,37 +88,30 @@
     </div>
     </section>
 
-<section class="Portfolio" id="Portfolio">
+<section class="Portfolio" id="projecten">
     <div class="heading">
-        <h1>Portfolio</h1>
+        <h1>projecten</h1>
     </div>
 
     <div class="portfolio-content">
         <div class="p-box">
             <div class="p-img">
-                <img src="/images/" alt="">
+                <img src="./img/figma.png" alt="">
             </div>
-            <h2>Web Developer</h2>
-            <p> hier komt tekst</p>
+            <h2>Figma</h2>
+            <a href="https://www.figma.com/file/piR4cy78dgrOboL15dPqDV/Layout---ArtPGM-mobile-layout?type=design&node-id=0%3A1&t=wOCJEgn3Wttyf8jV-1" target="_blank"> Klik Hier</a>
         </div>
         <div class="portfolio-content">
             <div class="p-box">
                 <div class="p-img">
-                    <img src="/images/" alt="">
+                    <img src="/img/figma.png" alt="">
                 </div>
-                <h2>Web Designing</h2>
-                <p> hier komt tekst</p>
+                <h2>Figma</h2>
+                <a href="https://www.figma.com/file/MTadLJBPx4qjQGF7vWWqLi/opdracht-2-Wintergroen-op-het-terras?type=design&node-id=3%3A8&t=xbyTHDaw89B1ACkH-1" target="_blank"> Klik Hier</a>
             </div>
-            <div class="portfolio-content">
-                <div class="p-box">
-                    <div class="p-img">
-                        <img src="/images/" alt="">
-                    </div>
-                    <h2>Recent Work</h2>
-                    <p> hier komt tekst</p>
-                </div>
     </div>
 </section>
+
 
         <section class="contact" id="contact">
             <div class="heading">
@@ -139,24 +132,43 @@
                             <p>Zuidmoerstraat180, Eeklo 9900</p>
                         </div>
                         <div class="info-box social">
-                            <a href="https://www.linkedin.com/in/maryam-abbas-731732250/"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/MaryamAlobeidi"><i class="fab fa-github"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100083737123761"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/maryam-abbas-731732250/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/MaryamAlobeidi" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100083737123761" target="_blank"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="contact-form">
                         <form action="">
-                            <input type="text" placeholder="Your Name">
+                           <!-- <input type="text" placeholder="Your Name">
                             <input type="email" placeholder="Enter Your Email">
                             <textarea name="" id="" cols="30" rows="10" placeholder="write your message here..."></textarea>
-                            <input type="button" value="Send" class="contact-button">
+                            <input type="button" type="submit" value="Send" class="contact-button">-->
+                            
+                            <div>
+                                <label for="name">Voornaam:</label>
+                                <input type="text" name="name" placeholder="Voornaam" >
+                            </div>
+                            <div>
+                                <label for="lastname">Achternaam:</label>
+                                <input type="text" name="lastname" placeholder="Achternaam" >
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" placeholder="Email" >
+                            </div>
+                            <div>
+                                <label for="mess">Bericht</label>
+                                <textarea type="text" rows="6" name="message" placeholder="Bericht" ></textarea>
+                            </div>
+                            <input class="button" type="submit" value="versturen" >
+
                         </form>
                     </div>
                 </div>
         </section>
 
         <div class="copyright">
-            <p>&#169; CarpoolVenom All Right Reserved</p>
+            <p>&#169; Maryam Abbas</p>
         </div>
 
     <script src="/js/main.js"></script>
